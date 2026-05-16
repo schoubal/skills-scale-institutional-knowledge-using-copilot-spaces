@@ -1,47 +1,39 @@
 # OctoAcme Project Management Docs
 
-This README provides a concise summary of OctoAcme's project management processes and links to the detailed process documents in this folder. It is intended as a single, discoverable entry point for teammates and contributors who want to understand how OctoAcme runs projects.
+This folder contains OctoAcme's project management process documentation. The README below gives a concise overview of our processes and provides direct links to the full documents for detailed guidance. Use this as a single, discoverable entry point for onboarding, planning, and day-to-day delivery.
 
-## Brief summary of OctoAcme project management processes
+## Overview
+OctoAcme runs projects iteratively from initiation through planning, execution, release, and retrospective. Projects start with a lightweight Project One-pager to validate the problem, define measurable success metrics, and align stakeholders before moving into planning. Planning produces a prioritized backlog with acceptance criteria, estimates, and a release plan grounded in an agreed Definition of Done.
 
-- Initiation: Validate ideas with a Project One-pager, identify stakeholders, define success metrics, and decide whether to move into planning.
-- Planning: Run a kickoff, build a prioritized backlog with acceptance criteria, estimate scope, and create a release plan with clear Definition of Done.
-- Execution & Tracking: Work from a project board (Backlog → Ready → In Progress → In Review → QA → Done), use small PRs with linked issues and CI, and hold regular standups and weekly delivery syncs.
-- Release & Deployment: Follow pre-release checks, run staging smoke tests, deploy via automated pipelines when possible, and have rollback and incident playbooks ready.
-- Retrospectives & Continuous Improvement: Run retros after sprints/releases/incidents, capture 2–3 action items, and track improvements in the backlog.
-- Risk & Communication: Maintain a Risk Register, communicate weekly status updates to stakeholders, and escalate blockers via defined paths.
+## Execution & Tracking
+Execution & tracking emphasize predictable flow and small, reviewable changes. Teams use a project board (Backlog → Ready → In Progress → In Review → QA → Done), timeboxed planning, and small pull requests that reference issues and acceptance criteria. CI and security scans run before review; at least one approval is required before merging. Regular cadences (daily standups, weekly delivery syncs, sprint demos) keep progress visible and escalate blockers through defined paths: team → PM → Product Lead → Sponsor.
+
+## Release & Continuous Improvement
+Releases follow a checklist-driven approach: pre-release checks, staging smoke tests, automated production pipelines where possible, post-deploy verifications, and rollback/incident playbooks as needed. Continuous improvement is enforced through retrospectives after sprints, releases, or incidents—action items are tracked in the backlog and followed up in PM syncs. Risk management uses a simple Risk Register (impact, likelihood, owner, mitigation) with weekly reviews and stakeholder communications.
 
 ## Links to process documents
-
 - OctoAcme Project Management Overview
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-project-management-overview.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-project-management-overview.md
 - Project Initiation Guide
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-project-initiation.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-project-initiation.md
 - Project Planning
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-project-planning.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-project-planning.md
 - Execution & Tracking
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-execution-and-tracking.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-execution-and-tracking.md
 - Release & Deployment Guide
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-release-and-deployment.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-release-and-deployment.md
 - Retrospective & Continuous Improvement
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-retrospective-and-continuous-improvement.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-retrospective-and-continuous-improvement.md
 - Risks & Communication
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-risks-and-communication.md
-
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-risks-and-communication.md
 - Roles & Personas
-  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/e07c4fa9e78649d6a0ea5cdebbe9ca2e82d3cd59/docs/octoacme-roles-and-personas.md
+  - https://github.com/schoubal/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/docs/octoacme-roles-and-personas.md
 
 ## How to use
-
-- Link to this README from the project root README or project onboarding materials.
+- Link to this README from the project root README or onboarding materials so teammates can quickly find process guidance.
 - Keep these links current if files are moved or renamed.
 
----
-
-(Generated by Copilot Space for schoubal/skills-scale-institutional-knowledge-using-copilot-spaces)
+## Acceptance checklist
+- [ ] Content aligns with existing process docs
+- [ ] Update improves discoverability and clarity
+- [ ] Link to this README from project root README or onboarding materials
